@@ -52,6 +52,14 @@ class App extends Component {
           transitionIn="fadeIn"
           transitionOut="fadeOut"
         />
+        <ReduxToastr
+          timeOut={4000}
+          newestOnTop
+          preventDuplicates
+          position="bottom-center"
+          transitionIn="fadeIn"
+          transitionOut="fadeOut"
+        />
         <Switch>
           <Route exact path="/login" component={Login} />
           <PrivateRoute path="/car-details" component={CarDetails} />

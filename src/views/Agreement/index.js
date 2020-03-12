@@ -66,6 +66,7 @@ class Agreement extends Component {
     //   )
     this.getCarDetails().then(carDetailsResponse => {
       this.setState({ carDetails: carDetailsResponse.data[0] });
+      console.log('policyDetailResponse.policyDetails', policyDetailResponse);
     });
   }
   onChange(name, values) {

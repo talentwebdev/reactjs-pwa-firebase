@@ -23,7 +23,7 @@ import spinnerStatusReducer from "./spinnerStore/reducer";
 const rootPersistConfig = {
   key: "root",
   storage,
-  blacklist: ["toastr", "carDetails", "agreement", "permission", "login"]
+  blacklist: ["toastr", "carDetails", "agreement", "permission", "login", 'signup']
   // debug: true,
 };
 
